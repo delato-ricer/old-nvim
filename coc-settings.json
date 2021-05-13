@@ -1,0 +1,39 @@
+{
+	// https://github.com/neoclide/coc.nvim
+	// https://www.chrisatmachine.com/Neovim/04-vim-coc/
+	// https://www.youtube.com/watch?v=OXEVhnY621M
+	"coc.preferences.formatOnSaveFiletypes": [
+		"cpp",
+		"css",
+		"markdown",
+		"javascript",
+		"graphql",
+		"html",
+		"yaml",
+		"json",
+		"python"
+	],
+	// python config
+	"python.linting.enabled": true,
+	"python.linting.pylintEnabled": true,
+	//"python.jediEnabled": false,
+	"snippets.ultisnips.directories": [
+		"UltiSnips",
+		"~/.config/nvim/utils/snips"
+	],
+	// explorer
+	// https://github.com/weirongxu/coc-explorer
+	// https://www.chrisatmachine.com/Neovim/06-file-explorer/
+	// http://www.youtube.com/watch?v=vrEJ6NopAGo
+	"explorer.width": 30,
+	"explorer.icon.enableNerdfont": true,
+	"explorer.previewAction.onHover": true,
+	"explorer.keyMappings": {
+		"<cr>": [
+			"expandable?",
+			"expand",
+			"open"
+		],
+		"v": "open:vsplit"
+	}
+}
